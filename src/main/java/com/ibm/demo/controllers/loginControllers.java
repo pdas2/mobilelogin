@@ -95,7 +95,7 @@ public class loginControllers {
 		
 		logger.info("Offer will be activated within 24 hrs for User: "+offer.getuserName());
 		return "redirect:success";
-		//return "Offer will be activated within 24 hrs for User: "+offer.getuserName();
+		//returns "Offer will be activated within 24 hrs for User: "+offer.getuserName();
 	}
 	
 	
